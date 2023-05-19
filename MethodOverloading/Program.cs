@@ -19,14 +19,14 @@ namespace MethodOverloading
             
             var moneyAnswer = money1 + money2; 
 
-            if (moneyAnswer >= 1 && isTrue)
-            {
-                Console.WriteLine(moneyAnswer + " dollars");
-            }
-             else if (moneyAnswer == 1 && isTrue)
-         
+            if (moneyAnswer == 1 && isTrue)
             {
                 Console.WriteLine(moneyAnswer + " dollar");
+            }
+             else if (moneyAnswer >= 1 && isTrue)
+         
+            {
+                Console.WriteLine(moneyAnswer + " dollars");
             }
             else
             {
@@ -39,7 +39,7 @@ namespace MethodOverloading
             Console.WriteLine(firstAnswer);
            var secondAnswer = Add(3.3, 3.3);
             Console.WriteLine(secondAnswer);
-             Add(11, 13, true);
+             Add(5, 8, true);
                 
         }
     }
